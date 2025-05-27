@@ -22,17 +22,6 @@
     revertOnDeath: true
 
 - type: polymorph
-  id: SlimeMorphGeras
-  configuration:
-    entity: MobSlimesGeras
-    transferName: true
-    transferHumanoidAppearance: false
-    inventory: Drop
-    transferDamage: true
-    revertOnDeath: true
-    revertOnCrit: true
-
-- type: polymorph
   id: WizardForcedCarp
   configuration:
     entity: MobCarpMagic
