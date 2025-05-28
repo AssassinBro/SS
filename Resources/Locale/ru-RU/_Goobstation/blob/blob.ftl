@@ -1,5 +1,5 @@
 ent-SpawnPointGhostBlob = блоб спавнер
-    .suffix = DEBUG, спавнер роли призрака1
+    .suffix = DEBUG, спавнер роли призрака
     .desc = { ent-MarkerBase.desc }
 ent-MobBlobPod = блоб капля
     .desc = Рядовой боец блоба. Может зомбировать трупы.
