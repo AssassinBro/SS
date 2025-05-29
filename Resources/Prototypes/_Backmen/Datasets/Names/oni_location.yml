@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: NamesOniLocation
+  values:
+    prefix: names-location-oni-
+    count: 28

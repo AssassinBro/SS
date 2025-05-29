@@ -4,11 +4,9 @@
   description: job-description-paramedic
   playTimeTracker: JobParamedic
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobMedicalDoctor
-      time: 14400 #4 hrs
-    - !type:OverallPlaytimeRequirement
-      time: 54000 # 15 hrs
+  - !type:DepartmentTimeRequirement
+    department: Medical
+    time: 3600 #1 hrs
   startingGear: ParamedicGear
   icon: "JobIconParamedic"
   supervisors: job-supervisors-cmo
@@ -17,18 +15,20 @@
   - Maintenance
   extendedAccess:
   - Chemistry
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Medical
+  wage: 35
+  #end-backmen: currency
   special:
   - !type:AddComponentSpecial
     components:
-    #start-_CorvaxNext: surgery
+    #start-backmen: surgery
     #- type: CPRTraining
     - type: SurgerySpeedModifier
-      speedModifier: 1.75
-    #end-_CorvaxNext: surgery
-    - type: Skills # Corvax-Next-Skills
-      skills:
-      - Surgery
-      - MedicalEquipment
+      SpeedModifier: 1.75
+    #end-backmen: surgery
 
 - type: startingGear
   id: ParamedicGear

@@ -11,15 +11,16 @@
   - Maintenance
   extendedAccess:
   - Salvage
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Cargo
+  wage: 50
+  #end-backmen: currency
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: BoxingDay
     prototype: BoxCardboard
-  - !type:AddComponentSpecial
-    components:
-      - type: Skills # Corvax-Next-Skills
-        skills:
-        - ShuttleControl
 
 - type: startingGear
   id: CargoTechGear
