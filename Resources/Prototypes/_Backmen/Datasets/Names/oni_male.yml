@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: NamesOniMale
+  values:
+    prefix: names-male-oni-
+    count: 17

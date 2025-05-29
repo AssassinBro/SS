@@ -6,10 +6,10 @@
   objective: roles-antag-vox-raiders-commander-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 108000
+    time: 7200
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 54000
+    time: 7200
 
 - type: antag
   id: VoxRaiders
@@ -19,10 +19,10 @@
   objective: roles-antag-vox-raiders-operative-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 54000
+    time: 7200
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 18000
+    time: 7200
 
 - type: startingGear
   id: VoxRaidersOperativeGear
