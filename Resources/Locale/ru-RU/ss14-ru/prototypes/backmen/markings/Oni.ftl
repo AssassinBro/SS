@@ -1,0 +1,7 @@
+marking-OniHornSingleCurved = Одиночный рог (дугообразный)
+marking-OniHornSingleLeftCurved = Одиночный левый рог (дугообразный)
+marking-OniHornSingleRightCurved = Одиночный правый рог (дугообразный)
+marking-OniHornDoubleCurvedOutwards = Двойной рог (Изгиб наружу)
+marking-OniHornDoubleCurved = Двойной рог (Дугообразные)
+marking-OniHornDoubleLeftBrokeCurved = Двойной рог (Левый отломан, дугообразный)
+marking-OniHornDoubleRightBrokeCurved = Двойной рог (Правый отломан, дугообразный)
