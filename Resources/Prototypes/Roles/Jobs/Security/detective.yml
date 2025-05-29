@@ -22,12 +22,11 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Security
-  wage: 50
-  #end-backmen: currency
+  - !type:AddComponentSpecial
+    components:
+      - type: Skills # Corvax-Next-Skills
+        skills:
+        - Shooting
 
 - type: startingGear
   id: DetectiveGear
@@ -35,12 +34,10 @@
     eyes: ClothingEyesGlassesSecurity
     id: DetectivePDA
     ears: ClothingHeadsetSecurity
-    belt: ClothingBeltHolster
+    belt: ClothingBeltHolsterFilled
   storage:
     back:
     - Flash
     - ForensicPad
     - ForensicScanner
-#    belt:
-#    - SpeedLoaderMagnum
-
+    - ClothingNeckSecBadgeDetective # Corvax-Next-Badges

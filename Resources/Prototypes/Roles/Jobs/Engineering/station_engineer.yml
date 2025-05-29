@@ -16,12 +16,13 @@
   - External
   extendedAccess:
   - Atmospherics
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Engineering
-  wage: 50
-  #end-backmen: currency
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skills # Corvax-Next-Skills
+        skills:
+        - ShuttleControl
+        - AdvancedBuilding
 
 - type: startingGear
   id: StationEngineerGear

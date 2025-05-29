@@ -8,7 +8,6 @@
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 7200 # 2h # Corvax-RoleTime
-  discordRequired: true # backmen: antag
 
 - type: antag
   id: Rev
@@ -17,7 +16,6 @@
   setPreference: false
   objective: roles-antag-rev-objective
   guides: [ Revolutionaries ]
-  discordRequired: true # backmen: antag
 
 - type: startingGear
   id: HeadRevGear
@@ -25,7 +23,3 @@
     back:
     - Flash
     - ClothingEyesGlassesSunglasses
-    - WeaponPistolMakarovsssp #backmen
-    - MagazinePistol
-    - ClothingNeckNKVDBagde
-    - CombatKnifeSpetsnaz

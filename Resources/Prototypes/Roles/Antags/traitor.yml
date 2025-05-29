@@ -7,8 +7,7 @@
   guides: [ Traitors ]
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 3600 # 1h # Corvax-RoleTime
-  discordRequired: true # backmen: antag
+    time: 7200 # 2h # Corvax-RoleTime
 
 - type: antag
   id: TraitorSleeper
@@ -17,12 +16,8 @@
   setPreference: true
   objective: roles-antag-syndicate-agent-sleeper-objective
   guides: [ Traitors ]
-  discordRequired: true # backmen: antag
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 3600 # 1h
-  - !type:DepartmentTimeRequirement
-    department: Security
     time: 3600 # 1h
 
 # Syndicate Operative Outfit - Monkey

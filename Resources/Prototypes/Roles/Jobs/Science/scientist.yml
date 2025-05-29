@@ -13,12 +13,12 @@
   access:
   - Research
   - Maintenance
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Science
-  wage: 50
-  #end-backmen: currency
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skills # Corvax-Next-Skills
+        skills:
+        - AdvancedBuilding
 
 - type: startingGear
   id: ScientistGear

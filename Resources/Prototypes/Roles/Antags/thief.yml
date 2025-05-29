@@ -8,7 +8,6 @@
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 3600 # 1h # Corvax-RoleTime
-  discordRequired: true # backmen: antag
 
 - type: startingGear
   id: ThiefGear

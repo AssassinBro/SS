@@ -1,4 +1,4 @@
-﻿- type: job
+﻿﻿- type: job
   id: TechnicalAssistant
   name: job-name-technical-assistant
   description: job-description-technical-assistant
@@ -14,12 +14,14 @@
   - Maintenance
   - Engineering
   - External
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Engineering
-  wage: 25
-  #end-backmen: currency
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skills # Corvax-Next-Skills
+        skills:
+        - AdvancedBuilding
+        - ShuttleControl
+
 
 - type: startingGear
   id: TechnicalAssistantGear

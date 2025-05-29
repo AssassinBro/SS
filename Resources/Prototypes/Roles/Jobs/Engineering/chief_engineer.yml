@@ -15,8 +15,6 @@
       time: 10800 #3 hrs # Corvax-RoleTime
 #    - !type:OverallPlaytimeRequirement
 #      time: 144000 #40 hrs
-    - !type:AgeRequirement
-      requiredAge: 21
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
@@ -31,23 +29,16 @@
   - Atmospherics
   - Brig
   - Cryogenics
-  #start-backmen: currency
-  minBankBalance: 400
-  maxBankBalance: 600
-  wageDepartment: Command
-  wage: 100
-  #end-backmen: currency
   special:
-  - !type:AddComponentSpecial
-    components:
-      - type: NpcFactionMember
-        factions:
-          - CentralCommand
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+      - type: Skills # Corvax-Next-Skills
+        skills:
+        - ShuttleControl
+        - AdvancedBuilding
 
 - type: startingGear
   id: ChiefEngineerGear

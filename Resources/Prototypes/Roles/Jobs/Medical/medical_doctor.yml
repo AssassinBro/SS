@@ -15,20 +15,18 @@
   - Maintenance
   extendedAccess:
   - Chemistry
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Medical
-  wage: 50
-  #end-backmen: currency
   special:
   - !type:AddComponentSpecial
     components:
-    #start-backmen: surgery
+    #start-_CorvaxNext: surgery
     #- type: CPRTraining
     - type: SurgerySpeedModifier
-      SpeedModifier: 1.75
-    #end-backmen: surgery
+      speedModifier: 1.75
+    - type: Skills # Corvax-Next-Skills
+      skills:
+      - Surgery
+      - MedicalEquipment
+    #end-_CorvaxNext: surgery
   - !type:GiveItemOnHolidaySpecial
     holiday: DoctorDay
     prototype: WehMedipen

@@ -1,11 +1,8 @@
-﻿- type: job
+﻿﻿- type: job
   id: MedicalIntern
   name: job-name-intern
   description: job-description-intern
   playTimeTracker: JobMedicalIntern
-  requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 3600 #1 hrs # Corvax-RoleTime
   startingGear: MedicalInternGear
   icon: "JobIconMedicalIntern"
   supervisors: job-supervisors-medicine
@@ -13,20 +10,18 @@
   access:
   - Medical
   - Maintenance
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Medical
-  wage: 25
-  #end-backmen: currency
   special:
   - !type:AddComponentSpecial
     components:
-    #start-backmen: surgery
+    #start-_CorvaxNext: surgery
     #- type: CPRTraining
     - type: SurgerySpeedModifier
-      SpeedModifier: 1.5
-    #end-backmen: surgery
+      speedModifier: 1.5
+    #end-_CorvaxNext: surgery
+    - type: Skills # Corvax-Next-Skills
+      skills:
+      - Surgery
+      - MedicalEquipment
 
 - type: startingGear
   id: MedicalInternGear

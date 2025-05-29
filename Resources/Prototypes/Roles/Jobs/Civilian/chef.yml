@@ -3,6 +3,10 @@
   name: job-name-chef
   description: job-description-chef
   playTimeTracker: JobChef
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 1800 #0.5 hrs # Corvax-RoleTime
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hop
@@ -13,12 +17,13 @@
   extendedAccess:
   - Hydroponics
   - Bar
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Civilian
-  wage: 50
-  #end-backmen: currency
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skills # Corvax-Next-Skills
+        skills:
+        - Butchering
+      - type: CanChokeGrab
 
 - type: startingGear
   id: ChefGear

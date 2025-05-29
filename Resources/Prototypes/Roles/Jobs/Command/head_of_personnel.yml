@@ -17,9 +17,7 @@
 #      department: Command
 #      time: 72000 # 20 hrs
     - !type:OverallPlaytimeRequirement
-      time: 10800 #3 hrs # Corvax-RoleTime
-    - !type:AgeRequirement
-      requiredAge: 21
+      time: 14400 #4 hrs # Corvax-RoleTime
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
@@ -52,23 +50,12 @@
   - Cargo
   - Atmospherics
   - Medical
-  #start-backmen: currency
-  minBankBalance: 400
-  maxBankBalance: 600
-  wageDepartment: Command
-  wage: 100
-  #end-backmen: currency
   special:
-    - !type:AddComponentSpecial
-      components:
-        - type: NpcFactionMember
-          factions:
-            - CentralCommand
-    - !type:AddImplantSpecial
-      implants: [ MindShieldImplant ]
-    - !type:AddComponentSpecial
-      components:
-        - type: CommandStaff
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
 
 - type: startingGear
   id: HoPGear

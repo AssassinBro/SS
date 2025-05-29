@@ -14,20 +14,17 @@
   - Medical
   - Chemistry
   - Maintenance
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Medical
-  wage: 50
-  #end-backmen: currency
   special:
+    #start-_CorvaxNext: surgery
   - !type:AddComponentSpecial
     components:
-    #start-backmen: surgery
     #- type: CPRTraining
     - type: SurgerySpeedModifier
-      SpeedModifier: 1.75
-    #end-backmen: surgery
+      speedModifier: 1.75
+    #end-_CorvaxNext: surgery
+    - type: Skills # Corvax-Next-Skills
+      skills:
+      - MedicalEquipment
 
 - type: startingGear
   id: ChemistGear
