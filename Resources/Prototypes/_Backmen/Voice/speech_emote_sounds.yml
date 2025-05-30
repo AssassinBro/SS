@@ -19,7 +19,7 @@
       collection: FelinidMews
     Meows:
       collection: FelinidMeows
-    Purrs:
+    Purr:
       collection: FelinidPurrs
     Growl:
       collection: FelinidGrowls
@@ -51,7 +51,7 @@
       collection: FelinidMews
     Meows:
       collection: FelinidMeows
-    Purrs:
+    Purr:
       collection: FelinidPurrs
     Growl:
       collection: FelinidGrowls
