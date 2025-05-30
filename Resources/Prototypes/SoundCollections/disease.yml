@@ -67,3 +67,13 @@
   id: Vomit
   files:
   - /Audio/Effects/Fluids/splat.ogg
+
+# SIDE SPACE EDIT START
+- type: soundCollection
+  id: BCatMeowSound
+  files:
+  - /Audio/Corvax/Effects/Growl/growl1.ogg
+  - /Audio/Corvax/Effects/Growl/growl2.ogg
+  - /Audio/Corvax/Effects/Growl/growl3.ogg
+
+# SIDE SPACE EDIT END
