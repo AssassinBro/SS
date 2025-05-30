@@ -1,0 +1,7 @@
+# перенесено не все
+
+- type: emote
+  id: BCatMeow
+  name: chat-emote-name-BCatMeow
+  category: Vocal
+  chatMessages: ["chat-emote-msg-BCatMeow"]
